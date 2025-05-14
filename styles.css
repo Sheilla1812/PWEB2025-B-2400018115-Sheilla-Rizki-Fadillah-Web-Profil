@@ -1,0 +1,151 @@
+/* Reset basic styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Main content styling */
+.main {
+    padding: 2em;
+}
+
+/* Profile card styling */
+.profile-card {
+    background-color: #fff;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-card img.profile-logo {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.profile-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Planning card styling */
+.planning-card {
+    background-color: #ffffff;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.planning-card h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.planning-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.planning-card ul li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* Social media card styling */
+.social-media-card {
+    background-color: #ffffff;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.social-media-card h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.social-media-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media-card ul li {
+    margin-bottom: 10px;
+}
+
+.social-media-card ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-media-card ul li a:hover {
+    background-color: #555;
+    color: #f4f4f4;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
